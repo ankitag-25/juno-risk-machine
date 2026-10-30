@@ -8,7 +8,7 @@ An interactive fraud rules simulator. Build a synthetic user (who they are, how 
 Juno Finance was a US crypto neobank ($1B TPV, 300K+ users). In the risk team , I designed fraud controls built on anti fraud and AML principles:
 
 
-These controls cut onboarding fraud by ~30% and transaction fraud by up to 350%. This project rebuilds that rule logic on synthetic data so anyone can poke at the trade-off between catching fraud and wrongly flagging good customers.
+These controls cut onboarding fraud by ~30% and transaction fraud by up to 35%. This project rebuilds that rule logic on synthetic data so anyone can poke at the trade-off between catching fraud and wrongly flagging good customers.
 
 ## How the machine decides (v1)
 
