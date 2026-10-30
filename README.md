@@ -39,16 +39,6 @@ Checked in this order. The first match wins.
 | Hard flag | ❌ | ❌ | ❌ | ❌ | Manual review |
 | Onboarding block | No account is created | | | | |
 
-## Results on 50 synthetic users
-
-| | v1 |
-|---|---|
-| Fraud and at-risk caught | 15 of 16 |
-| Good users wrongly flagged | 8 of 34 |
-| Fraud missed | 1 |
-
-v1 catches almost everything, but 8 real customers can't withdraw their own money. That cost is what v2 is designed to fix.
-
 ## Project structure
 
 ```
