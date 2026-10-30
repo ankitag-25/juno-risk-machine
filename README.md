@@ -1,20 +1,14 @@
 # Juno Risk Machine
 
-**Catch the fraud. Not the customer.**
 
 An interactive fraud rules simulator. Build a synthetic user (who they are, how they log in, how money moves in and out) and watch the machine decide: **Clear**, **Soft flag**, **Hard flag** or **Onboarding block**, with every rule traced.
 
-**Live demo:** _add your Vercel link here_
-
----
-
 ## Why this exists
 
-At Juno Finance, a US crypto neobank ($1B TPV, 300K+ users), money that left as crypto was gone for good. I designed fraud controls built on one principle:
+Juno Finance was a US crypto neobank ($1B TPV, 300K+ users). In the risk team , I designed fraud controls built on anti fraud and AML principles:
 
-> **Let money in. Control money out.**
 
-These controls cut onboarding fraud by ~30% and transaction fraud by up to 20%. This project rebuilds that rule logic on synthetic data so anyone can poke at the trade-off between catching fraud and wrongly flagging good customers.
+These controls cut onboarding fraud by ~30% and transaction fraud by up to 350%. This project rebuilds that rule logic on synthetic data so anyone can poke at the trade-off between catching fraud and wrongly flagging good customers.
 
 ## How the machine decides (v1)
 
