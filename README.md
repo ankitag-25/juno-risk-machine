@@ -52,21 +52,4 @@ src/
   styles.css        ← layout and component styles
 ```
 
-## Run it locally
 
-You need [Node.js](https://nodejs.org) 18 or newer.
-
-```bash
-npm install      # install dependencies (first time only)
-npm run dev      # start at http://localhost:5173
-npm test         # run the acceptance tests
-npm run build    # production build into dist/
-```
-
-## Tech
-
-React 18, TypeScript and Vite. Fully client-side, no backend and no external APIs. Tests run on Vitest.
-
----
-
-All users are synthetic. Rules mirror logic I designed at Juno Finance; thresholds are illustrative and are not Juno's production values.
