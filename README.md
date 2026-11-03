@@ -39,17 +39,3 @@ Checked in this order. The first match wins.
 | Hard flag | ❌ | ❌ | ❌ | ❌ | Manual review |
 | Onboarding block | No account is created | | | | |
 
-## Project structure
-
-```
-src/
-  engine/
-    rules.ts        ← the whole rules engine: thresholds, rules, decision logic
-    users.ts        ← 50 synthetic users + 13 hand-built scenarios (fixed seed)
-    rules.test.ts   ← acceptance tests: 15 / 8 / 1 and every scenario
-  components/       ← React UI (builder, result panel, rule check table)
-  theme.css         ← every color and font in one file
-  styles.css        ← layout and component styles
-```
-
-
