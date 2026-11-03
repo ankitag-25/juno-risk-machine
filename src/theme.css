@@ -1,0 +1,27 @@
+/* ============================================================
+   THEME: every color and font lives here.
+   Modelled on the Juno help center: indigo band, white page, quiet cards.
+   ============================================================ */
+:root {
+  --brand: #4646EC;          /* indigo band, icons, primary button */
+  --brand-strong: #3434C8;   /* hover / pressed */
+  --brand-soft: #EEEEFE;     /* selected card background */
+  --on-brand: #FFFFFF;
+  --on-brand-muted: #DCDCFC;
+
+  --page: #FFFFFF;
+  --card: #FFFFFF;
+  --line: #DADDE5;
+  --text: #1C1F2A;
+  --muted: #5E6575;
+
+  /* decision colors */
+  --clear: #0F8A5F;
+  --soft: #B45309;
+  --hard: #D62D45;
+  --block: #6D28D9;
+
+  --sans: "Nunito Sans", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --r: 8px;
+  color-scheme: light;
+}
